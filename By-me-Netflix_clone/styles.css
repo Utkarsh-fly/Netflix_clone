@@ -1,0 +1,422 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: helvetica;
+    color: #fff;
+}
+
+hr {
+    border: 5px solid rgb(102, 96, 96);
+    margin: 0;
+    border-style: solid none none;
+}
+
+h1 {
+    margin: 0;
+    font-weight: bolder;
+}
+
+/* Navbar Section  */
+nav {
+    padding: 30px 50px;
+}
+
+nav .netflix-logo {
+    display: inline-block;
+}
+
+nav img {
+    width: 165px;
+}
+
+nav .signin {
+    float: right;
+    color: #fff;
+    background-color: #e50914;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 6px 17px;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+    padding: 10px;
+}
+
+p {
+    margin: 5px 0 10px 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+    nav img {
+        width: 100px;
+    }
+
+    nav {
+        padding: 20px 30px;
+    }
+
+    nav .signin {
+        font-size: 10px;
+        border-radius: 2px;
+        padding: 3px 7px;
+    }
+
+    .header-content {
+        padding: 1% 0;
+        width: 25%;
+        height: 0px;
+    }
+
+    .main-title {
+        font-size: 40px;
+        font-weight: bolder;
+        width: 350px;
+        position: relative;
+        right: 60px;
+    }
+
+    .header-content {
+        padding: 5% 0;
+        width: 60%;
+    }
+
+    h3 {
+        font-size: 18px;
+        width: 200%;
+        position: relative;
+        right: 85px;
+        font-weight: bold;
+    }
+
+    .heading-paragraph {
+        font-size: 10px;
+        width: 400px;
+        position: relative;
+        right: 80px;
+    }
+
+    p {
+        margin: 0 0 10px 0;
+    }
+
+    .form-email {
+        font-size: 6px;
+        width: 80%;
+        height: 50px;
+        padding: 0 80% 0 80%;
+        position: relative;
+        right: 66px;
+        text-align: center;
+    }
+
+    .form-button {
+        width: 100%;
+        font-size: 15px;
+        padding: 0px 100px 0px 100px;
+        margin-top: 10px;
+        position: relative;
+        left: 4px;
+        height: 50px;
+        background-color: #e50914;
+        color: #fff;
+    }
+
+    .select-1 {
+        float: right;
+        margin-right: 8px;
+        border-radius: 1px;
+        padding: 6px 18px;
+        color: #fff;
+        border-color: #fff;
+        font-size: 10px;
+        width: 99px;
+    }
+
+    .select-2 {
+        float: left;
+        margin-left: 18px;
+        border-radius: 1px;
+        padding: 6px 18px;
+        color: #fff;
+        border-color: #fff;
+        font-size: 10px;
+        width: 99px;
+    }
+
+    option {
+        font-size: 5px;
+        width: 40px;
+    }
+
+    .img-2 {
+        width: 80%;
+    }
+
+    .img-22 {
+        width: 50%;
+        float: left;
+    }
+
+    .faq-section {
+        text-align: center;
+        /* padding-bottom: 90px; */
+    }
+
+    .faq-buttons {
+        padding-left: 30%;
+    }
+
+    .ques-box {
+        background-color: #333;
+
+        width: 350px;
+    }
+
+    .faq-button {
+        background-color: #333;
+        border: none;
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .plus {
+        font-size: 1.625rem;
+        font-weight: 400;
+        color: white;
+        float: right;
+        margin-top: 15px;
+        margin-right: 30px;
+    }
+
+    .vid-3 {
+        position: relative;
+        z-index: 1;
+        width: 59%;
+        bottom: 56%;
+    }
+
+    img-3 {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .vid-1 {
+        position: relative;
+        z-index: 1;
+        width: 65%;
+        bottom: 50%;
+    }
+}
+
+/* Netflix-Image Section */
+
+.netflix-image {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(80%);
+    z-index: -1;
+}
+
+header {
+    background: radial-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.9));
+    height: 100vh;
+    color: #fff;
+}
+
+/* Header-content Section */
+
+.header-content {
+    text-align: center;
+    padding: 10% 0;
+    width: 50%;
+}
+
+/* media Query for main-title */
+@media screen and (min-width: 481px) {
+    .main-title {
+        font-size: 70px;
+        font-weight: bolder;
+    }
+
+    .form-email {
+        font-size: 16px;
+        width: 70%;
+        height: 50px;
+        border: 1px solid blue;
+        float: left;
+    }
+
+    .form-button {
+        font-size: 20px;
+        width: 25%;
+        height: 50px;
+        background-color: #e50914;
+        color: #fff;
+        float: left;
+        font-weight: bold;
+    }
+
+    .select-1 {
+        float: right;
+        margin-right: 10px;
+        border-radius: 1px;
+        padding: 6px 18px;
+        color: #fff;
+        border-color: #fff;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .select-2 {
+        float: left;
+        margin-left: 10px;
+        border-radius: 1px;
+        padding: 6px 18px;
+        color: #fff;
+        border-color: #fff;
+        text-decoration: none;
+    }
+
+    option {
+        color: white;
+        text-decoration: none;
+        background-color: #3b3737;
+    }
+
+    .faq-section {
+        text-align: center;
+        padding-bottom: 90px;
+    }
+
+    .faq-buttons {
+        padding-left: 30%;
+    }
+
+    .ques-box {
+        background-color: #333;
+
+        width: 850px;
+    }
+
+    .faq-button {
+        background-color: #333;
+        color: white;
+        border: none;
+        font-size: 1.625rem;
+        font-weight: 400;
+        color: white;
+        padding: 1.25rem;
+    }
+
+    .plus {
+        font-size: 1.625rem;
+        font-weight: 400;
+        color: white;
+        float: right;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+
+    .vid-3 {
+        position: relative;
+        z-index: 1;
+        width: 65%;
+        bottom: 40%;
+    }
+
+    .vid-1 {
+        position: relative;
+        z-index: 1;
+        width: 65%;
+        bottom: 40%;
+    }
+}
+
+.heading-paragraph {
+    font-size: 20px;
+}
+
+/* Form */
+
+/* what netflix offers section */
+
+.offers {
+    text-align: center;
+    padding: 0;
+}
+
+.offer {
+    padding-top: 7%;
+}
+
+/* Offer one */
+
+.img-1 {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+}
+
+/* Offer two */
+
+.img-2 {
+    width: 80%;
+}
+
+.img-22 {
+    width: 30%;
+    float: left;
+}
+
+/* Offer three */
+.img-3 {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+}
+
+/* Offer four */
+.img-4 {
+    width: 80%;
+}
+
+/* Frequently Asked Questions */
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.column {
+    text-align: left;
+}
+
+.footer-link {
+    color: #757575;
+}
+
+.netflix-portugal {
+    float: left;
+
+    margin: 20px 100px 10px 10px;
+}
+
+.last-form {
+    text-align: center;
+    width: 65%;
+    margin-bottom: 10px;
+}
